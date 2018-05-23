@@ -10,6 +10,10 @@
                           active-text-color="#409EFF"
                           router>
 					<!--<el-menu-item index="manage"><i class="el-icon-menu"></i>首页</el-menu-item>-->
+                    <el-menu-item index="divideInto">订单分成管理</el-menu-item>
+                    <el-menu-item index="channelManagement">渠道管理</el-menu-item>
+                    <el-menu-item index="forwardManagement">提现管理</el-menu-item>
+
                     <el-menu-item index="vueEdit"><i class="el-icon-document"></i>文章管理</el-menu-item>
                     <el-menu-item index="video"><i class="el-icon-menu"></i>视频管理</el-menu-item>
                     <el-menu-item index="LabelClassification"><i class="el-icon-star-on"></i>标签/分类管理</el-menu-item>

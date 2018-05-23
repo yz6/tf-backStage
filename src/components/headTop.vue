@@ -1,6 +1,6 @@
 <template>
     <div class="header_container">
-        <div style="font-size: 20px;text-align: left">播斗运营管理后台</div>
+        <div style="font-size: 20px;text-align: left">腾飞渠道运营后台</div>
 		<!--<el-breadcrumb style="color: #fff" separator="/">-->
 			<!--<el-breadcrumb-item :to="{ path: '/vueEdit' }" >文章管理</el-breadcrumb-item>-->
 			<!--<el-breadcrumb-item v-for="(item, index) in $route.meta" key="index">{{item}}</el-breadcrumb-item>-->

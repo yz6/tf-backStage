@@ -22,6 +22,11 @@ const sendMessage = r => require.ensure([], () => r(require('@/page/sendMessage'
 const explain = r => require.ensure([], () => r(require('@/page/explain')), 'explain');
 const video = r => require.ensure([], () => r(require('@/page/video')), 'video');
 const LabelClassification = r => require.ensure([], () => r(require('@/page/LabelClassification')), 'LabelClassification');
+const divideInto = r => require.ensure([], () => r(require('@/page/divideInto')), 'divideInto');
+const channelManagement = r => require.ensure([], () => r(require('@/page/channelManagement')), 'channelManagement');
+const forwardManagement = r => require.ensure([], () => r(require('@/page/forwardManagement')), 'forwardManagement');
+
+
 
 const routes = [
 	{
@@ -100,6 +105,18 @@ const routes = [
 		    path:"/LabelClassification",
             component:LabelClassification,
             meta:['标签/分类管理']
+        },{
+            path:"/divideInto",
+            component:divideInto,
+            meta:['订单分成管理']
+        }, {
+            path: "/channelManagement",
+            component:channelManagement,
+            meta:["渠道管理"]
+        },{
+		    path:"/forwardManagement",
+            component:forwardManagement,
+            meta:["提现管理"]
         }]
 	}
 ]

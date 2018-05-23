@@ -63,13 +63,13 @@
 		                        type: 'success',
 		                        message: '登录成功'
 		                    });
-							this.$router.push('vueEdit')
+							this.$router.push('divideInto')
 						}else{
 							this.$message({
 		                        type: 'error',
 		                        message: res.message,
 		                    });
-                            this.$router.push('vueEdit')
+                            this.$router.push('divideInto')
 						}
 					} else {
 						this.$notify.error({
